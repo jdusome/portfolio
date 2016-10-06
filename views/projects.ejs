@@ -1,15 +1,32 @@
 <% include partials/header.ejs %>
 <% include partials/content.ejs %>
 
-<p>
-    Here are two projects I created during my first year at Georgian College. The first picture is a screenshot of an interactive
-    weather monitoring website I created in my Web Authoring class called “The Georgian Weather Hub.” The proceeding YouTube video
-    was created for an Arduino Project I made during my Computer Organization and Architecture class!
-</p>
-
-<img src="images/GWH.jpg" alt="Georgian Weather Hub">
-
-<!--- Arduino Robodrums Youtube link, which was formulated by hitting 'Share' then the 'Embedded' Option on Youtube --->
-<iframe width="560" height="315" src="https://www.youtube.com/embed/y0vXn8hgm0g" frameborder="0" allowfullscreen></iframe>
+<!-- Creates a row that can be split in columns -->
+<div class="row">
+    <!-- Creates a column 4/12 wide on the left side -->
+    <div class="col-md-4">
+        <!-- Left column Content -->
+        <!-- Responsive image that will adjust to the screen size -->
+        <img src="images/GWH.jpg" alt="Georgian Weather Hub" class="img-responsive">
+    </div>
+    <!-- Creates a column 4/12 wide in the middle -->
+    <div class="col-md-4">
+        <!-- Middle column Content -->
+        <p>
+            Here are two projects I created during my first year at Georgian College. The first picture is a screenshot of an interactive
+            weather monitoring website I created in my Web Authoring class called “The Georgian Weather Hub.” The proceeding YouTube video
+            was created for an Arduino Project I made during my Computer Organization and Architecture class!
+        </p>
+    </div>
+    <!-- Creates a column 4/12 wide on the right side -->
+    <div class="col-md-4">
+        <!-- Right column Content -->
+        <!-- create a responsive embedded divider, with the content being scaled to 16 by 9 -->
+        <div class="embed-responsive embed-responsive-16by9">
+            <!--- Arduino Robodrums Youtube link, which was formulated by hitting 'Share' then the 'Embedded' Option on Youtube --->
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/y0vXn8hgm0g" allowfullscreen></iframe>
+        </div>
+    </div>
+</div>
 
 <% include partials/footer.ejs %>
