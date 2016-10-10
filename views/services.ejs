@@ -2,25 +2,43 @@
 
 <h1> <%= title %> </h1>
 
-<ul>
-  <li>Technical Skills</li>
-  <ul>
-    <li>Develop object oriented applications using Python and Java</li>
-    <li>Develop interactive websites using HTML, CSS, PHP, JavaScript, and NodeJS</li>
-    <li>Maintain and utilize relational database using mySQL</li>
-    <li>Networking</li>
-    <li>Adobe Photoshop and GIMP</li>
-    <li>Microsoft Office</li>
-    <li>Open Office</li>
-  </ul>
-  <li>General Skills</li>
-  <ul>
-    <li>Excellent communication</li>
-    <li>Able to work as a team or individual</li>
-    <li>Project management skills</li>
-    <li>Self-driven and motivated</li>
-    <li>Friendly and respectful</li>
-  </ul>
-</ul>
+<!-- Creates a row that can be split in columns -->
+<div class="row">
+  <!-- Creates a column 4/12 wide on the left side -->
+  <div class="col-md-4">
+    <!-- Left column Content -->
+  </div>
+  <!-- Creates a column 4/12 wide in the middle -->
+  <div class="col-md-4">
+    <!-- Middle column Content -->
+    <ul>
+      <li>Technical Skills</li>
+      <ul>
+        <li>Develop object oriented applications using Python and Java</li>
+        <li>Develop interactive websites using HTML, CSS, PHP, JavaScript, and NodeJS</li>
+        <li>Maintain and utilize relational database using mySQL</li>
+        <li>Networking</li>
+        <li>Adobe Photoshop and GIMP</li>
+        <li>Microsoft Office</li>
+        <li>Open Office</li>
+      </ul>
+      <li>General Skills</li>
+      <ul>
+        <li>Excellent communication</li>
+        <li>Able to work as a team or individual</li>
+        <li>Project management skills</li>
+        <li>Self-driven and motivated</li>
+        <li>Friendly and respectful</li>
+      </ul>
+    </ul>
+  </div>
+  <!-- Creates a column 4/12 wide on the Right side -->
+  <div class="col-md-4">
+    <!-- Right column Content -->
+  </div>
+
+</div>
+
+
 
 <% include partials/footer.ejs %>

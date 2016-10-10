@@ -2,10 +2,29 @@
 
 <h1> <%= title %> </h1>
 
-<ul>
-    <li>Name: Joshua Dusome</li>
-    <li>Phone: (705) 817-3363</li>
-    <li>Email: 200236108@student.georgianc.on.ca</li>
-</ul>
+<!-- Creates a row that can be split in columns -->
+<div class="row">
+    <!-- Creates a column 4/12 wide on the left side -->
+    <div class="col-md-4">
+        <!-- Left column Content -->
+    </div>
+    <!-- Creates a column 4/12 wide in the middle -->
+    <div class="col-md-4">
+        <!-- Middle column Content -->
+        <ul>
+            <li>Name: Joshua Dusome</li>
+            <li>Phone: (705) 817-3363</li>
+            <li>Email: 200236108@student.georgianc.on.ca</li>
+        </ul>
+
+    </div>
+    <!-- Creates a column 4/12 wide on the Right side -->
+    <div class="col-md-4">
+        <!-- Right column Content -->
+    </div>
+
+</div>
+
+
 
 <% include partials/footer.ejs %>

@@ -5,11 +5,19 @@
   left: 50%;
 }
 
-/* function used to align selected h1's */
-.h1center {
+/*align all h1 headers */
+h1 {
   text-align: center;
 }
 
+/* function used to align selected text */
+.textalign {
+  text-align: center;
+}
+
+.bgcolor {
+  background-color: #1C7A7F;
+}
 /* function used to align img within div */
 .imgcenter {
   border: none;
