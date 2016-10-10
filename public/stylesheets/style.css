@@ -4,3 +4,15 @@
   line-height: 50px;
   left: 50%;
 }
+
+/* function used to align selected h1's */
+.h1center {
+  text-align: center;
+}
+
+/* function used to align img within div */
+.imgcenter {
+  border: none;
+  display: block;
+  margin: 0 auto;
+}
