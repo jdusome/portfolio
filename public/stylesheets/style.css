@@ -8,15 +8,34 @@
 /*align all h1 headers */
 h1 {
   text-align: center;
+  font-family: 'Passion One', cursive;
+  font-size: 300%;
+  text-shadow: 2px 2px #32DCE5;
 }
 
-/* function used to align selected text */
-.textalign {
-  text-align: center;
+p {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 125%;
 }
 
-.bgcolor {
+.sourcefont {
+  font-family: 'Source Serif Pro', serif;
+  font-size: 125%;
+}
+
+.catafont {
+  font-family: 'Catamaran', sans-serif;
+  font-size: 150%;
+}
+
+.bgcolormainblue {
   background-color: #1C7A7F;
+}
+
+.bgcolortextwhite {
+  background-color: white;
+  border: 5px solid #0E3D40;
+  border-radius: 5px;
 }
 /* function used to align img within div */
 .imgcenter {
