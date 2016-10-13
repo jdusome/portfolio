@@ -1,11 +1,19 @@
-/* Custom style used to center the footer text vertically/horizontally */
+/*
+Name: Joshua Dusome
+Date: October 13, 2016
+File Name: style.css
+Website: https://jdusome-portfolio.herokuapp.com
+Purpose: Style sheet used to style various aspects of the page
+*/
+
+/* Custom function used to center the footer text vertically/horizontally */
 .fcenter {
   position: absolute;
   line-height: 50px;
   left: 50%;
 }
 
-/*align all h1 headers */
+/*Align all h1 headers, used Passion One font at 300%, create text Shadow */
 h1 {
   text-align: center;
   font-family: 'Passion One', cursive;
@@ -13,31 +21,36 @@ h1 {
   text-shadow: 2px 2px #32DCE5;
 }
 
+/*Change all p font to Source Serif Pro, 125% */
 p {
   font-family: 'Source Serif Pro', serif;
   font-size: 125%;
 }
 
+/* Custom function used to change specified font to Source Serif Pro, 125% */
 .sourcefont {
   font-family: 'Source Serif Pro', serif;
   font-size: 125%;
 }
 
+/* Custom function used to change specified font to Catamaran, 150% */
 .catafont {
   font-family: 'Catamaran', sans-serif;
   font-size: 150%;
 }
 
+/*  Custom function used to change background-color to #1C7A7F */
 .bgcolormainblue {
   background-color: #1C7A7F;
 }
 
+/*  Custom function used to*/
 .bgcolortextwhite {
   background-color: white;
   border: 5px solid #0E3D40;
   border-radius: 5px;
 }
-/* function used to align img within div */
+/*  Custom function used tofunction used to align img within div */
 .imgcenter {
   border: none;
   display: block;

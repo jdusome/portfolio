@@ -1,3 +1,11 @@
+/*
+Name: Joshua Dusome
+Date: October 13, 2016
+File Name: index.js
+Website: https://jdusome-portfolio.herokuapp.com
+Purpose: Controller used to route the different views on the website, also passes variables.
+*/
+
 var express = require('express');
 var router = express.Router();
 

@@ -1,14 +1,28 @@
+<!--
+Name: Joshua Dusome
+Date: October 13, 2016
+File Name: header.ejs
+Website: https://jdusome-portfolio.herokuapp.com
+Purpose: A shared header that is used on all non-partial application views.
+- Loads all required stylesheets and fonts.
+- Contains a shared header with a title input.
+- Contains a navbar to navigate the application.
+- Contains an opening bracket for the body of our views, and an opening for a fluid container to fit our views.
+-->
+
 <!DOCTYPE HTML>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+    <!-- title is inputted via route -->
   <title><%= title%></title>
 
-  <!-- css -->
+  <!-- css style sheets -->
   <link rel="stylesheet" href="/stylesheets/bootstrap.min.css"/>
   <link rel="stylesheet" href="/stylesheets/bootstrap-theme.min.css"/>
     <link rel="stylesheet" href="/stylesheets/style.css"/>
-<!-- font -->
+
+    <!-- font -->
     <link href="https://fonts.googleapis.com/css?family=Catamaran" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Passion+One" rel="stylesheet">

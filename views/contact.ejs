@@ -1,5 +1,18 @@
+<!--
+Name: Joshua Dusome
+Date: October 13, 2016
+File Name: contact.ejs
+Website: https://jdusome-portfolio.herokuapp.com
+Purpose: Contact view used to display contact information for Joshua.
+- Loads shared header and footer.
+- Creates 3 columns used to style content.
+- Displays contact information within an un-ordered list.
+-->
+
+<!-- Loads shared header -->
 <% include partials/header.ejs %>
 
+<!-- Displays title passed in by the route -->
 <h1> <%= title %> </h1>
 
 <!-- Creates a row that can be split in columns -->
@@ -12,6 +25,7 @@
     <div class="col-md-4 bgcolortextwhite">
         <!-- Middle column Content -->
         <br>
+        <!-- Un-ordered list using the sourcefont class from style.css -->
         <ul class="sourcefont">
             <li>Name: Joshua Dusome</li>
             <li>Phone: (705) 817-3363</li>
@@ -27,6 +41,5 @@
 
 </div>
 
-
-
+<!-- Loads shared footer -->
 <% include partials/footer.ejs %>

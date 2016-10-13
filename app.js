@@ -1,3 +1,13 @@
+/*
+ Name: Joshua Dusome
+ Date: October 13, 2016
+ File Name: app.js
+ Website: https://jdusome-portfolio.herokuapp.com
+ Purpose: Base javascript file for our application
+ - Loads required modules
+ - Dispatches routes
+ */
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');

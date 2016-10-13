@@ -1,5 +1,18 @@
+<!--
+Name: Joshua Dusome
+Date: October 13, 2016
+File Name: services.ejs
+Website: https://jdusome-portfolio.herokuapp.com
+Purpose: Services view used to display the different services and skills of Joshua.
+- Loads shared header and footer.
+- Creates 3 columns to style content.
+- Displays an un-ordered list containing Technical and General skills.
+-->
+
+<!-- Loads shared header -->
 <% include partials/header.ejs %>
 
+<!-- Displays title passed in by the route -->
 <h1> <%= title %> </h1>
 
 <!-- Creates a row that can be split in columns -->
@@ -12,6 +25,7 @@
   <div class="col-md-4 bgcolortextwhite">
     <!-- Middle column Content -->
       <br>
+    <!-- Un-ordered list to display technical and general skills using the sourcefont class from style.css -->
     <ul class="sourcefont">
       <li>Technical Skills</li>
       <ul>
@@ -38,9 +52,7 @@
   <div class="col-md-4">
     <!-- Right column Content -->
   </div>
-
 </div>
 
-
-
+<!-- Loads shared footer -->
 <% include partials/footer.ejs %>
